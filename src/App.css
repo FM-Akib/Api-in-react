@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .user{
   background-color: crimson;
   color: white;
@@ -15,7 +10,12 @@
   margin:20px auto;
   width: 500px;
 }
+.head{
+  /* background-color:royalblue; */
 
+  height: 70px;
+
+}
 
 
 

@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
 
-
+    <Head></Head>
     <LoadApi></LoadApi>
 
 
@@ -45,4 +45,11 @@ function User(props){
   )
 }
 
+function Head(){
+  return(
+    <div className='head'>
+            <h1>My React App</h1>
+    </div>
+  )
+}
 export default App;
