@@ -7,6 +7,27 @@
   pointer-events: none;
 }
 
+.user{
+  background-color: crimson;
+  color: white;
+  border:1px solid #333;
+  border-radius: 10px;
+  margin:20px auto;
+  width: 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

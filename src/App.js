@@ -6,7 +6,7 @@ function App() {
     <div className="App">
 
 
-<LoadApi></LoadApi>
+    <LoadApi></LoadApi>
 
 
 
@@ -27,7 +27,7 @@ function LoadApi() {
   return (
    <div>
     {
-      users.map(user =><User name={user.name}></User>)
+      users.map(user =><User name={user.name} email={user.email} phone={user.phone} website={user.website}></User>)
     }
      
    </div>
@@ -36,8 +36,11 @@ function LoadApi() {
 
 function User(props){
   return (
-    <div>
-      <h1>Name:{props.name}</h1>
+    <div className="user">
+      <h1>Name: {props.name}</h1>
+      <p>Email: {props.email}</p>
+      <p>Phone: {props.phone}</p>
+      <p>Website: {props.website}</p>
     </div>
   )
 }
